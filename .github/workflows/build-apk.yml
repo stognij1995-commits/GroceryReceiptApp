@@ -31,7 +31,7 @@ jobs:
 
       - name: Extract app project
         run: |
-          unzip -q GroceryReceiptApp_Android_PhoneBuild.zip -d extracted
+          unzip -q GroceryReceiptApp_Android_PhoneBuild_FIXED.zip -d extracted
           test -f extracted/GroceryReceiptApp/settings.gradle.kts
 
       - name: Build debug APK
